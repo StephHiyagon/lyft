@@ -91,14 +91,34 @@ function noPegar(){
 input[1].onkeypress=letras;
 input[3].onkeypress=letras;
 
+var error=document.getElementsByClassName('error');
+
+function valida(event){
+  if(this.value==""){
+    this.nextElementSibling.style.display="block";
+    this.classList.add("red");
+  }else{
+    this.nextElementSibling.style.display="none";
+    this.classList.remove("red");
+  }
+}
+
+
+for(var i=0; i<2;i++){
+  input[i].onblur=valida;
+}
+
+input[3].onblur=valida;
+
 function correo(event){
-  alert("funciona");
   var correo=input[2].value;
   console.log(correo);
-  if((/[\w]+@{1}[\w]+\.[a-z]{2,3}/.test(correo))){
-    alert("valido");
+  if(!(/[\w]+@{1}[\w]+\.[a-z]{2,3}/.test(correo)) || correo==""){
+    this.nextElementSibling.style.display="block";
+    this.classList.add("red");
   }else{
-    alert("invalido");
+    this.nextElementSibling.style.display="none";
+    this.classList.remove("red");
   }
 }
 

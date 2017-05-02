@@ -1,5 +1,6 @@
 body{
-  background-color:#1F0736;
+  background:-webkit-linear-gradient( #2B1E66,#76278f );
+  background: linear-gradient(#2B1E66, #76278f);
   font-family: 'Montserrat', sans-serif;
   margin:0;
 }
@@ -78,8 +79,8 @@ nav>ul>li>a{
   color:black;
 }
 
-video{
-  position:absolute;
+video.principal{
+  position:relative;
   top:0;
 }
 
@@ -89,7 +90,7 @@ video{
 
 aside{
   position: absolute;
-  top: 100px;
+  top: 167px;
   right: 0;
   width: 40%;
   background: white;
@@ -105,6 +106,15 @@ aside>h2{
 input[type="text"]{
   border:1px;
   border-bottom: 1px solid #728099;
+  display:inline-block;
+  width: 100%;
+  color:#728099;
+  margin-bottom: 20px;
+}
+
+input.red{
+  border:1px;
+  border-bottom: 1px solid red;
   display:inline-block;
   width: 100%;
   color:#728099;
@@ -130,4 +140,258 @@ aside>a{
 
 input.oculta{
   display:none;
+}
+
+aside>img{
+  display:none;
+  width: 6%;
+  position: relative;
+  top: -52px;
+  right: -480px;
+}
+
+article{
+  background: linear-gradient(#2B1E66, #76278f);
+  margin:0;
+  padding-top: 0;
+}
+
+article>img{
+  float:right;
+  margin-right:10%;
+}
+
+div.uno{
+  color:white;
+  margin-left:10%;
+  margin-bottom: 5%;
+
+}
+
+div>h3{
+  font-family: 'Montserrat', sans-serif;
+  margin:0;
+  margin-bottom: 5px;
+  padding-top: 10px;
+}
+
+div>p{
+  font-size: 12px;
+  margin:0;
+  margin-bottom: 5px;
+}
+
+div.video1{
+  clear:both;
+  background-color: white;
+  overflow:auto;
+}
+
+div.video1>.youtube-player1{
+  float:right;
+}
+
+div.text1{
+  width: 40%;
+}
+
+div.text1>span{
+  font-weight: bold;
+  display:inline-block;
+  margin:40px;
+  margin-bottom: 0;
+}
+
+div.text1>h3{
+  font-weight: bold;
+  font-size: 2rem;
+  display:block;
+  margin:40px;
+  margin-top:0;
+}
+
+div.text1>p{
+  display:block;
+  font-size: 1rem;
+  margin:10px 40px;
+  width: 60%;
+}
+
+div.video2{
+  clear: both;
+  background-color: white;
+  overflow:auto;
+}
+
+div.video2>.text2{
+  display:inline-block;
+  width: 40%;
+  float:right;
+  background-color: white;
+}
+
+div.video2>.youtube-player2{
+  float:left;
+}
+
+div.text2>span{
+  font-weight: bold;
+  display:inline-block;
+  margin:40px;
+  margin-bottom: 0;
+}
+
+div.text2>h3{
+  font-weight: bold;
+  font-size: 2rem;
+  display:block;
+  margin:40px;
+  margin-top:0;
+}
+
+div.text2>p{
+  display:block;
+  font-size: 1rem;
+  margin:10px 40px;
+  width: 60%;
+}
+
+div.video3{
+  clear: both;
+  background-color: white;
+  overflow:auto;
+}
+
+div.video3>.text3{
+  display:inline-block;
+  width: 40%;
+  float:left;
+  background-color: white;
+}
+
+div.video3>.youtube-player3{
+  float:right;
+}
+
+div.text3>span{
+  font-weight: bold;
+  display:inline-block;
+  margin:40px;
+  margin-bottom: 0;
+}
+
+div.text3>h3{
+  font-weight: bold;
+  font-size: 2rem;
+  display:block;
+  margin:40px;
+  margin-top:0;
+}
+
+div.text3>p{
+  display:block;
+  font-size: 1rem;
+  margin:10px 40px;
+  width: 60%;
+}
+
+footer{
+  margin:0;
+  padding:30px;;
+  clear:both;
+  background-color: #303144;
+}
+
+ul{
+  margin:0;
+  padding:0;
+  list-style: none;
+  display: inline-block;
+  color:white;
+}
+
+ul>li{
+  list-style: none;
+  margin-bottom:10px;
+  color:white;
+}
+
+div.tr1{
+  width: 20%;
+  display: inline-block;
+  background-color: transparent;
+  padding-left: 10px;
+  position:relative;
+  top:0;
+  left:10%;
+  font-size: 12px;
+}
+
+div.tr1>ul>li{
+  font-size: 16px;
+}
+
+div.tr2{
+  width: 20%;
+  display: inline-block;
+  background-color: transparent;
+  padding-left: 10px;
+  position:relative;
+  top:0;
+  left:10%;
+  font-size: 12px;
+}
+
+div.tr2>ul>li{
+  font-size: 16px;
+}
+
+div.tr3{
+  width: 20%;
+  display: inline-block;
+  background-color: transparent;
+  padding-left: 10px;
+  position:relative;
+  top:0;
+  left:10%;
+  font-size: 12px;
+}
+
+div.tr3>ul>li{
+  font-size: 16px;
+}
+
+img.foot1{
+  position: relative;
+  top: -72px;
+  left: 104px;
+}
+
+img.foot2{
+  position: relative;
+  top: -24px;
+}
+
+img.foot3{
+  position: relative;
+  top: 25px;
+  left: -102px;
+}
+
+div.redes{
+  margin:20px;
+  text-align: center;
+}
+
+div.line{
+  background-color: white;
+  color:white;
+  width: 60%;
+  margin:0 auto;
+  line-height: 5px;
+}
+
+div.copy{
+  text-align: center;
+  color:white;
 }
