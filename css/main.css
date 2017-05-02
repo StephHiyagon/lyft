@@ -316,6 +316,11 @@ ul>li{
   color:white;
 }
 
+.hov:hover{
+  color:#D50082;
+  cursor:pointer;
+}
+
 div.tr1{
   width: 20%;
   display: inline-block;
@@ -329,6 +334,11 @@ div.tr1{
 
 div.tr1>ul>li{
   font-size: 16px;
+}
+
+div.tr1>ul:hover>li{
+  text-decoration: underline;
+  cursor:pointer;
 }
 
 div.tr2{
@@ -346,6 +356,11 @@ div.tr2>ul>li{
   font-size: 16px;
 }
 
+div.tr2>ul:hover>li{
+  text-decoration: underline;
+  cursor:pointer;
+}
+
 div.tr3{
   width: 20%;
   display: inline-block;
@@ -359,6 +374,11 @@ div.tr3{
 
 div.tr3>ul>li{
   font-size: 16px;
+}
+
+div.tr3>ul:hover>li{
+  text-decoration: underline;
+  cursor:pointer;
 }
 
 img.foot1{
