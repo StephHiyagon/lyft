@@ -1,6 +1,5 @@
 body{
-  background:-webkit-linear-gradient( #2B1E66,#76278f );
-  background: linear-gradient(#2B1E66, #76278f);
+  background: #303144;
   font-family: 'Montserrat', sans-serif;
   margin:0;
 }
@@ -329,14 +328,16 @@ div.tr1{
   position:relative;
   top:0;
   left:10%;
-  font-size: 12px;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 div.tr1>ul>li{
-  font-size: 16px;
+  font-size: 20px;
+  font-weight: bold;
 }
 
-div.tr1>ul:hover>li{
+.subline:hover{
   text-decoration: underline;
   cursor:pointer;
 }
@@ -349,11 +350,12 @@ div.tr2{
   position:relative;
   top:0;
   left:10%;
-  font-size: 12px;
+  font-size: 16px;
 }
 
 div.tr2>ul>li{
-  font-size: 16px;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 div.tr2>ul:hover>li{
@@ -369,11 +371,12 @@ div.tr3{
   position:relative;
   top:0;
   left:10%;
-  font-size: 12px;
+  font-size: 16px;
 }
 
 div.tr3>ul>li{
-  font-size: 16px;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 div.tr3>ul:hover>li{
@@ -389,21 +392,30 @@ footer{
   height: 300px;
 }
 
+div.vacio{
+  height: 100px;
+  background-color: #303144;
+  width: 100%;
+  margin:0;
+  padding: 0;
+}
+
 img.foot1{
   position: relative;
-  top: -72px;
+  top: -95px;
   left: 104px;
 }
 
 img.foot2{
   position: relative;
-  top: -24px;
+  top: -40px;
+  left:-21px;
 }
 
 img.foot3{
   position: relative;
-  top: 25px;
-  left: -102px;
+  top: 21px;
+  left: -142px;
 }
 
 div.redes{
@@ -422,4 +434,5 @@ div.line{
 div.copy{
   text-align: center;
   color:white;
+  margin-top: 5px;
 }
