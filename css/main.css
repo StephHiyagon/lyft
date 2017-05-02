@@ -154,6 +154,7 @@ article{
   background: linear-gradient(#2B1E66, #76278f);
   margin:0;
   padding-top: 0;
+  height: 574px;
 }
 
 article>img{
@@ -198,7 +199,7 @@ div.text1{
 div.text1>span{
   font-weight: bold;
   display:inline-block;
-  margin:40px;
+  margin:80px;
   margin-bottom: 0;
 }
 
@@ -206,15 +207,17 @@ div.text1>h3{
   font-weight: bold;
   font-size: 2rem;
   display:block;
-  margin:40px;
+  margin:80px;
   margin-top:0;
+  margin-bottom: 40px;
 }
 
 div.text1>p{
   display:block;
   font-size: 1rem;
-  margin:10px 40px;
+  margin:10px 80px;
   width: 60%;
+  text-align: justify;
 }
 
 div.video2{
@@ -237,7 +240,7 @@ div.video2>.youtube-player2{
 div.text2>span{
   font-weight: bold;
   display:inline-block;
-  margin:40px;
+  margin:80px;
   margin-bottom: 0;
 }
 
@@ -245,15 +248,17 @@ div.text2>h3{
   font-weight: bold;
   font-size: 2rem;
   display:block;
-  margin:40px;
+  margin:80px;
   margin-top:0;
+  margin-bottom: 40px;
 }
 
 div.text2>p{
   display:block;
   font-size: 1rem;
-  margin:10px 40px;
+  margin:10px 80px;
   width: 60%;
+  text-align: justify;
 }
 
 div.video3{
@@ -276,7 +281,7 @@ div.video3>.youtube-player3{
 div.text3>span{
   font-weight: bold;
   display:inline-block;
-  margin:40px;
+  margin:80px;
   margin-bottom: 0;
 }
 
@@ -284,22 +289,17 @@ div.text3>h3{
   font-weight: bold;
   font-size: 2rem;
   display:block;
-  margin:40px;
+  margin:80px;
   margin-top:0;
+  margin-bottom: 40px;
 }
 
 div.text3>p{
+  text-align: justify;
   display:block;
   font-size: 1rem;
-  margin:10px 40px;
+  margin:10px 80px;
   width: 60%;
-}
-
-footer{
-  margin:0;
-  padding:30px;;
-  clear:both;
-  background-color: #303144;
 }
 
 ul{
@@ -379,6 +379,14 @@ div.tr3>ul>li{
 div.tr3>ul:hover>li{
   text-decoration: underline;
   cursor:pointer;
+}
+
+footer{
+  margin:0;
+  padding:30px;;
+  clear:both;
+  background-color: #303144;
+  height: 300px;
 }
 
 img.foot1{
