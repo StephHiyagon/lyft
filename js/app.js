@@ -101,6 +101,15 @@ function valida(event){
     this.nextElementSibling.style.display="none";
     this.classList.remove("red");
   }
+
+  if(this.getAttribute("type")=="text"){
+      var txt="";
+      var separa=this.value.split(" ");
+    	separa.forEach(function(e){
+        return txt = txt + e.charAt(0).toUpperCase() + e.slice(1) + " ";});
+      var imp=txt.trim();
+    	return this.value=imp;
+    }
 }
 
 
@@ -123,3 +132,15 @@ function correo(event){
 }
 
 input[2].onblur=correo;
+
+var become=document.getElementById("become");
+
+function envia(event){
+  if(input[0].value!="" && input[1].value!="" && input[2].value!="" && input[3].value!=""){
+    input[0].value="";
+    for(var i=1;i<4;i++){
+      input[i].style.display="none";
+    }
+  }
+}
+become.onclick=envia;
